@@ -1,0 +1,39 @@
+{
+  "name": "geode",
+  "description": "A Tiny Tile Server",
+  "url": "https://github.com/mapbox/geode",
+  "repositories": [{
+    "type": "git",
+    "url": "http://github.com/mapbox/geode.git" 
+  }],
+  "keywords": [
+    "tile",
+    "server"
+  ],
+  "contributors": [
+    "Tom MacWright <macwright@gmail.com>"
+  ],
+  "version": "0.0.0",
+  "licenses": [{
+    "type": "Apache"
+  }],
+  "bin": {
+    "geode": "./bin/geode.js",
+  },
+  "main": "./lib/geode/index",
+  "directories": {
+    "test": "./test"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "tilelive": ">= 0.1.5",
+    "express": ">= 2.3.0"
+  },
+  "devDependencies": {
+    "expresso" : ">= 0.7.6",
+    "docco" : ">= 0.2.0"
+  }
+}
+
