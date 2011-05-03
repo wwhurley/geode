@@ -1,0 +1,76 @@
+a.wax-fullscreen {
+  /* TODO: sprite-based fullscreen button */
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 99999;
+  }
+
+a.zoomer {
+  text-decoration:none;
+  position:absolute;
+  background-color:#444;
+  color:#fff;
+  line-height:25px;
+  font-size:20px;
+  z-index:99999;
+  text-align:center;
+  width:25px;
+  height:25px;
+  }
+
+  a.zoomin {
+    left:5px;
+    }
+
+  a.zoomout {
+    left:35px;
+    }
+
+  a.zoomdisabled {
+    background-color:#333;
+    }
+
+
+.wax-fullscreen-map {
+  position:fixed !important;
+  width:auto !important;
+  height:auto !important;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:999999999999;
+  }
+
+.wax-legends {
+  position:absolute;
+  left:10px;
+  bottom:10px;
+  z-index:999999;
+  }
+
+.wax-legends .wax-legend {
+  padding:10px;
+  background:#333;
+  color:#fff;
+  }
+
+.wax-tooltip {
+  z-index:999999;
+  position:absolute;
+  background:#333;
+  color:#fff;
+  padding:10px;
+  left:10px;
+  top:10px;
+  max-width:300px;
+  }
+
+.wax-tooltip .close {
+  display:block;
+  position:absolute;
+  top:0px;
+  right:0px;
+  }
+
