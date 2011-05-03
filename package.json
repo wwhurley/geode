@@ -18,9 +18,9 @@
     "type": "Apache"
   }],
   "bin": {
-    "geode": "./bin/geode.js",
+    "geode": "./bin/geode.js"
   },
-  "main": "./lib/geode/index",
+  "main": "./lib/geode/geode",
   "directories": {
     "test": "./test"
   },
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "tilelive": ">= 0.1.5",
+    "optimist": "= 0.1.8",
     "express": ">= 2.3.0"
   },
   "devDependencies": {
@@ -36,4 +37,3 @@
     "docco" : ">= 0.2.0"
   }
 }
-
